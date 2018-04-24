@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliot Rhys | sQuid</title>
+  <link rel="stylesheet" type="text/css" href="sQuidArticle.css"/>
+  <link rel="stylesheet" type="text/css" href="modal.css"/>
+  <link rel="icon" href="../moodi/moodi_article/smiley.png">
+  <script type="text/javascript" src="modal.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="parallax"></div>
+
+  <div class="scroller">
+    <div class="textview">
+
+      <img src="sQuid.png" id="title">
+      <h2>Pocket money tracking app for kids.</h2>
+
+      <p>My first project at CodeClan - creating a pocket money tracking app for kids. This project was built with Ruby (Sinatra Framework), HTML, Raw CSS, SQL (PostgreSQL), Illustrator and After Effects.</p><br>
+
+      <p>My first step is ugly but necessary - hand-sketching the layouts, user journeys and rough concept drawings. Visual thinking and immediately putting yourself in the position of the user makes you think about what they want and expect.</p><br>
+
+      <p>I also build out a single proto persona - this helps to contextualise who your user is, especially if they are a vastly different target demographic to your own (i.e age in this scenario). Usually I would do more but the timeframe of this project required efficiency.</p>
+
+    </div>
+
+    <h2 style="text-align:center">Planning</h2>
+
+    <div class="row">
+      <div class="column">
+        <img src="sQuid_article/early_sketches.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="sQuid_article/logic_flow.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="sQuid_article/user_journey.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="sQuid_article/proto_persona.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="sQuid_article/early_sketches.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="sQuid_article/logic_flow.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="sQuid_article/user_journey.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="sQuid_article/proto_persona.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="sQuid_article/early_sketches.jpg" style="width:100%" onclick="currentSlide(1)" alt="Early Sketches">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="sQuid_article/logic_flow.jpg" style="width:100%" onclick="currentSlide(2)" alt="Logic Flow">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="sQuid_article/user_journey.JPG" style="width:100%" onclick="currentSlide(3)" alt="User Journey">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="sQuid_article/proto_persona.png" style="width:100%" onclick="currentSlide(4)" alt="Proto Persona">
+        </div>
+      </div>
+    </div>
+
+    <div class="textview">
+
+      <p>The first thing I did was built out the functional code - getting the table persisting with SQL data and making sure all of the other sub-sites worked. Only once the product was working did I revisit the design.</p><br>
+
+      <p>Kids are easily bored and get frustrated with tasks they can't achieve easily. This is what I kept in mind when doing the design for this site. Large font sizes, bright colours and large elements (tables, buttons) make for an engaging and smooth user experience. Everything is clearly labelled and there is no complex terminology in the copy.</p><br>
+
+      <p>I also decided to tie in some of my limited experience as a cartoon animator to provide "characters" and an interesting setting for this app. The more "gamified" this app was, the more likely children would sit and learn to use it.</p><br>
+
+      <p>Here are some pictures of the final project. The full site can be downloaded from GitHub.</p>
+
+    </div>
+
+    <h2 style="text-align:center">Final Project</h2>
+
+
+    <div class="centre-images">
+      <img src="sQuid_article/welcomepage.png" width="40%">
+      <img src="sQuid_article/entry_screen.png" width="40%">
+      <img src="sQuid_article/rowview.png" width="40%">
+      <img src="sQuid_article/fullpage.png" width="40%">
+    </div>
+
+
+    <div class="buttonlinks">
+      <a href="https://github.com/eliotrhys/sQuid-Final"><button>Check out the project on GitHub!</button></a>
+      <a href="../index.html"><button>Go back to the homepage!</button></a>
+    </div>
+
+
+
+  </div>
+
+  <div class="parallax"></div>
+
+</body>
+</html>

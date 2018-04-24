@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliot Rhys | Whisper Bank</title>
+  <link rel="stylesheet" type="text/css" href="whisperbankArticle.css"/>
+  <link rel="stylesheet" type="text/css" href="modal.css"/>
+  <link rel="icon" href="../moodi/moodi_article/smiley.png">
+  <script type="text/javascript" src="modal.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="parallax"></div>
+
+  <div class="scroller">
+    <div class="textview">
+
+      <img src="whisperlogo.png" id="title" width="80%">
+      <h2>Mobile-first banking for millennials.</h2>
+
+      <div class="centre-images">
+        <img src="whisperbank_article/whispermockup.png" width="100%" id="title2">
+      </div>
+
+      <p>This was a design task I completed: creating a mobile-centric bank in the vein of "challenger banks" aimed at millennials.</p><br>
+
+      <p>I was tasked with creating a number of user flows for the usual bank-related activities: onboarding, adding new recipients, getting online support etc.</p><br>
+
+      <p>Outside of the mandatory deliverables I also explored the information architecture and menu structure, user journeys and emotion maps.</p>
+
+    </div>
+
+    <h2 style="text-align:center">Planning</h2>
+
+    <div class="row">
+      <div class="column">
+        <img src="whisperbank_article/whisperjourney.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="whisperbank_article/whispermenu.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="whisperbank_article/whisperonboard.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="whisperbank_article/wireframes.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="whisperbank_article/whisperjourney.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="whisperbank_article/whispermenu.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="whisperbank_article/whisperonboard.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="whisperbank_article/wireframes.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="whisperbank_article/whisperjourney.png" style="width:100%" onclick="currentSlide(1)" alt="Early Sketches">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="whisperbank_article/whispermenu.png" style="width:100%" onclick="currentSlide(2)" alt="Logic Flow">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="whisperbank_article/whisperonboard.png" style="width:100%" onclick="currentSlide(3)" alt="User Journey">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="whisperbank_article/wireframes.jpg" style="width:100%" onclick="currentSlide(4)" alt="Proto Persona">
+        </div>
+      </div>
+    </div>
+
+    <div class="textview">
+
+      <p>The other deliverable requested was a high-fidelity mockup of the primary screen. This was the result of market research, sketching and iteration.</p><br>
+
+      <p>This is the finished product - one is a regular design, the other is a more brutalist two-tone concept designed for those with bad eyesight - a more contrasted concept. Created in Adobe XD, assets built in Photoshop and Illustrator.</p><br>
+
+    </div>
+
+    <h2 style="text-align:center">Final Project</h2>
+
+    <div class="centre-images">
+      <img src="whisperbank_article/twotonemockups.png" width="70%">
+    </div>
+
+
+
+    <div class="buttonlinks">
+      <a href="../index.html"><button>Go back to the homepage!</button></a>
+    </div>
+
+
+  </div>
+
+  <div class="parallax"></div>
+
+</body>
+</html>

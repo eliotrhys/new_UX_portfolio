@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliot Rhys | moodi</title>
+  <link rel="stylesheet" type="text/css" href="moodiArticle.css" />
+  <link rel="stylesheet" type="text/css" href="modal.css" />
+  <link rel="icon" href="./moodi_article/smiley.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+  <script type="text/javascript" src="moodimodal.js"></script>
+</head>
+<body>
+
+  <div class="parallax"></div>
+
+  <div class="scroller">
+    <div class="textview">
+
+      <h1>moodi</h1>
+      <h2>Mood-based music playlist generator (App Concept).</h2>
+
+      <a href="https://xd.adobe.com/view/fba1a2f0-2a72-4aea-92fe-dac7b8bdfbaa/?fullscreen"><h2>Click here to use the interactive prototype!</h2></a>
+      <p>Note: <strong>This is not a functional app</strong>, just a design concept.</p>
+      <p>Also - the prototype colour scheme is slightly duller, this is a colour export problem with Adobe XD that is being fixed.</p><br>
+
+      <p>"moodi" was an idea I had in the first few weeks of CodeClan, during our first User Experience day. I thought the idea of generating playlists from moods would be great, but also gave me an idea for a left-field, creative interface idea.</p><br>
+
+      <p>The entire premise would be based on emojis: click happy for a happy playlist, sad for a sad one etc.</p>
+      <p>A more in-depth prototype would show the clicking-and-dragging of happy and sad to make melancholy, for example.</p>
+
+    </div>
+
+      <div class="smileys">
+        <ul>
+          <li><img src="moodi_article/smiley.png" width="16%"></li>
+          <li><img src="moodi_article/sad.png" width="16%"></li>
+          <li><img src="moodi_article/angry.png" width="16%"></li>
+          <li><img src="moodi_article/chill.png" width="16%"></li>
+          <li><img src="moodi_article/derpy.png" width="16%"></li>
+          <li><img src="moodi_article/studious.png" width="16%"></li>
+        </ul>
+      </div>
+
+
+    <h2 style="text-align:center">Prototyping</h2>
+
+    <div class="row">
+      <div class="column">
+        <img src="moodi_article/colour-schemes.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="moodi_article/alternate-1.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="moodi_article/alternate-2.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="moodi_article/prototyping.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="moodi_article/colour-schemes.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="moodi_article/alternate-1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="moodi_article/alternate-2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="moodi_article/prototyping.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="moodi_article/colour-schemes.png" style="width:100%" onclick="currentSlide(1)" alt="Colour Schemes">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="moodi_article/alternate-1.png" style="width:100%" onclick="currentSlide(2)" alt="Alternate View 1">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="moodi_article/alternate-2.png" style="width:100%" onclick="currentSlide(3)" alt="Alternate View 2">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="moodi_article/prototyping.png" style="width:100%" onclick="currentSlide(4)" alt="Prototyping">
+        </div>
+      </div>
+    </div>
+
+    <div class="textview">
+
+      <p>This was just a fun exercise in using Adobe XD, Illustrator and Photoshop. XD is incredibly useful for both high-resolution prototypes, and low-resolution wireframes.</p><br>
+
+      <p>Here are some pictures of the final project.</p>
+
+    </div>
+
+    <h2 style="text-align:center">Final Project</h2>
+
+    <div class="smileys">
+      <ul>
+        <li><img src="moodi_article/HAPPY-CORRECT.png" width="16%"></li>
+        <li><img src="moodi_article/SAD-CORRECT.png" width="16%"></li>
+        <li><img src="moodi_article/WILD-CORRECT.png" width="16%"></li>
+        <li><img src="moodi_article/CHILL-CORRECT.png" width="16%"></li>
+        <li><img src="moodi_article/SILLY-CORRECT.png" width="16%"></li>
+        <li><img src="moodi_article/STUDIOUS-CORRECT.png" width="16%"></li>
+      </ul>
+    </div>
+
+    <div class="centre">
+      <li><img src="moodi_article/SPLASH-CORRECT.png" width="16%"></li>
+      <li><img src="moodi_article/MENU-CORRECT.png" width="16%"></li>
+    </div>
+
+    <div class="buttonlinks">
+      <a href="../index.html"><button>Go back to the homepage!</button></a>
+    </div>
+
+
+
+  </div>
+
+  <div class="parallax"></div>
+
+</body>
+</html>

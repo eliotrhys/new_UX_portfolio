@@ -1,0 +1,56 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.card {
+  border: 0;
+  transition: 0.3s;
+  background-color: #141414;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card:hover {
+  transition: 0.3s;
+  /* box-shadow: 0 4px 8px 0 rgba(49, 123, 246, 0.8), 0 6px 20px 0 rgba(49, 123, 246, 0.19); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+0% { opacity:1; }
+50% { opacity:0; }
+100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+0% { opacity:1; }
+50% { opacity:0; }
+100% { opacity:1; }
+}
+@-moz-keyframes blink{
+0% { opacity:1; }
+50% { opacity:0; }
+100% { opacity:1; }
+}
+
+.brieftext {
+  font-family: 'Josefin Slab', serif;
+  font-size: 34px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.aboutme li {
+  font-size: 22px;
+}

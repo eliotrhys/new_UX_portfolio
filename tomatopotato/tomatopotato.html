@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliot Rhys | TOMATOPOTATO</title>
+  <link rel="stylesheet" type="text/css" href="TOMATOPOTATOArticle.css"/>
+  <link rel="stylesheet" type="text/css" href="modal.css"/>
+  <link rel="icon" href="../moodi/moodi_article/smiley.png">
+  <script type="text/javascript" src="modal.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="parallax"></div>
+
+  <div class="scroller">
+    <div class="textview">
+
+      <!-- <h1>TOMATOPOTATO</h1> -->
+      <img src="tomatopotato.png" id="title">
+      <h2>Custom single page website for Edinburgh pop band.</h2>
+
+      <a href="../tomatopotato_site/index.html"><h2>Click here to see the live demo! (Links disabled: NDA)</h2></a>
+
+      <p>Utilising research from band websites, I created a one page minimalist website for the Edinburgh band TOMATOPOTATO.</p><br>
+
+      <p>The page is sparse in the use of elements, and nothing is there that doesn't <strong>need</strong> to be there. This was following some similar designs from bands in the same genre.</p>
+
+    </div>
+
+    <h2 style="text-align:center">Market Research</h2>
+
+    <div class="row">
+      <div class="column">
+        <img src="tomatopotato_article/porterrobinson.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="tomatopotato_article/twentyonepilots.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="tomatopotato_article/prides.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="tomatopotato_article/falloutboy.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="tomatopotato_article/porterrobinson.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="tomatopotato_article/twentyonepilots.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="tomatopotato_article/prides.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="tomatopotato_article/falloutboy.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="tomatopotato_article/porterrobinson.png" style="width:100%" onclick="currentSlide(1)" alt="Porter Robinson Site">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="tomatopotato_article/twentyonepilots.png" style="width:100%" onclick="currentSlide(2)" alt="Twenty One Pilots Site">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="tomatopotato_article/prides.png" style="width:100%" onclick="currentSlide(3)" alt="Prides Site">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="tomatopotato_article/falloutboy.png" style="width:100%" onclick="currentSlide(4)" alt="Fall Out Boy Site">
+        </div>
+      </div>
+    </div>
+
+    <div class="textview">
+
+      <p>This was a cool opportunity to focus on minimalist user interface design, aim for something that look cleaner and more professional, and a chance to develop more CSS skills and logo design/augmentation.</p><br>
+
+      <p>Here is a picture of the final project.</p>
+
+    </div>
+
+    <h2 style="text-align:center">Final Project</h2>
+
+    <div class="centre-images">
+      <img src="tomatopotato_article/fullsite.png" width="50%">
+    </div>
+
+
+    <div class="buttonlinks">
+      <a href="../index.html"><button>Go back to the homepage!</button></a>
+    </div>
+
+
+  </div>
+
+  <div class="parallax"></div>
+
+</body>
+</html>

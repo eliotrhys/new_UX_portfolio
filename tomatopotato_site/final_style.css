@@ -1,0 +1,164 @@
+/* GLOBAL */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 15px/1.5 Questrial, sans-serif;
+  background: #161616;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 39px;
+  background: #ff2a00;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+
+}
+
+.button_1:hover {
+  background: #ba1f01;
+  transition: all 0.3s ease;
+
+}
+
+/* HEADER */
+
+header {
+  color: #ffffff;
+  padding-top: 40px;
+  min-height: 70px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+header a:hover {
+  transition: all 0.3s ease;
+  color: #ff2a00;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+/* LOGO */
+
+#logo_section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main_logo {
+  max-width: 70%;
+  max-height: 70%;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+#main_logo:hover {
+  max-width: 90%;
+  max-height: 90%;
+  transition: all 0.3s ease;
+}
+
+
+/* MAILING LIST */
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  padding-top: 450px;
+}
+
+#the_command {
+  text-align: center;
+}
+
+#the_form {
+  text-align: center;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding-top: 115px;
+}
+
+footer li {
+  display: inline;
+}
+
+footer a {
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  transition: all 0.3s ease;
+  padding: 50px;
+}
+
+#privacy a {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: left;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#privacy a:hover {
+  color: #ff2a00;
+  transition: all 0.3s ease;
+}
+
+.floater {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}

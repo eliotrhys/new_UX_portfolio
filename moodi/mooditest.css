@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#00b8ff, #0094ff);
+}
+
+.centre {
+  margin: auto;
+  width: 100%;
+}
+
+.centre img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.buttonlinks{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.buttonlinks button {
+  transition: 0.3 ease;
+  font-size: 24px;
+  font-family: Montserrat;
+  color: white;
+  background: black;
+  padding: 20px;
+}
+
+.buttonlinks button:hover {
+  transition: 0.3 ease;
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliot Rhys | cryptoKnight</title>
+  <link rel="stylesheet" type="text/css" href="pigibankArticle.css"/>
+  <link rel="stylesheet" type="text/css" href="modal.css"/>
+  <script type="text/javascript" src="modal.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="parallax"></div>
+
+  <div class="scroller">
+    <div class="textview">
+
+      <h1>cryptoKnight</h1>
+      <h2>Cryptocurrency portfolio app.</h2>
+
+      <p>My most recent project - so recent that I'm still in the process of making it! Project No. 3 - Group Project in Javascript.</p><br>
+
+      <p>Both front-and-back-end JavaScript, as well as learning how to use Bootstrap for this project.</p><br>
+
+    </div>
+
+    <h2 style="text-align:center">Proto Personas</h2>
+
+    <div class="row">
+      <div class="column">
+        <img src="pigibank_article/james.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="pigibank_article/brett.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="pigibank_article/mel.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="pigibank_article/harry.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="pigibank_article/james.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="pigibank_article/brett.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="pigibank_article/mel.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="pigibank_article/harry.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="pigibank_article/james.png" style="width:100%" onclick="currentSlide(1)" alt="James">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pigibank_article/brett.png" style="width:100%" onclick="currentSlide(2)" alt="Brett">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pigibank_article/mel.png" style="width:100%" onclick="currentSlide(3)" alt="Mel">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="pigibank_article/harry.png" style="width:100%" onclick="currentSlide(4)" alt="Harry">
+        </div>
+      </div>
+    </div>
+
+    <div class="textview">
+
+      <p>The most important thing in any project is to know who you're making it for. Proto Personas are fantastic when it comes to contextualising who your users are actually going to be.</p><br>
+
+      <p>I pick a wide swathe of people from all demographics to make sure that the app we are building is optimised for everyone who may need it - including those who travel, those who's careers may depend on our information, or those who may be short of sight.</p>
+
+    </div>
+
+    <h2 style="text-align:center">More info will be added this week, but in the meantime...</h2>
+    <h2 style="text-align:center">See the final presentation below!</h2>
+
+    <div class="centre">
+
+      <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="1100" height="500" src="https://prezi.com/embed/1blgujj95me8/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0eXByZjJJMUJpZ1JtZEJScnNTU0k1ekpBPT0&amp;landing_sign=xPRm1D-81Na_rSZt7bcUOvYpt7ZwgAJoLErHMpRHmto"></iframe>
+
+    </div>
+
+    <div class="buttonlinks">
+      <a href="https://github.com/JardineMiller/cryptoKnight"><button>Check out the project as it develops on GitHub!</button></a>
+      <a href="../index.html"><button>Go back to the homepage!</button></a>
+    </div>
+
+  </div>
+
+  <div class="parallax"></div>
+
+</body>
+</html>

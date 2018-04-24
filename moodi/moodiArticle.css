@@ -1,0 +1,77 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("moodi_article/moodibackground.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scroller {
+  height: 4200px;
+  background: #151515;
+  font-family: Montserrat;
+  color: white;
+}
+
+.scroller h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+.scroller h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.scroller p {
+  font-size: 20px;
+}
+
+.textview {
+  margin: auto;
+  padding: 20px;
+  width: 65%;
+}
+
+a {
+  text-decoration: none;
+  color: #f7c643;
+}
+
+a:hover {
+  color: white;
+}
+
+.smileys img {
+  display: inline;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+ul {
+  white-space: nowrap;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
+
+.centre img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+  padding: 20px;
+}

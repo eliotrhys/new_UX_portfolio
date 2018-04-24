@@ -1,0 +1,75 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.scroller {
+  height: 2900px;
+  background: #1e1e1e;
+  font-family: Montserrat;
+  color: white;
+}
+
+.scroller h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+.scroller h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.scroller p {
+  font-size: 20px;
+}
+
+.textview {
+  margin: auto;
+  padding: 20px;
+  width: 65%;
+}
+
+.buttonlinks{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.buttonlinks button {
+  transition: 0.3 ease;
+  font-size: 24px;
+  font-family: Montserrat;
+  color: white;
+  background: black;
+  padding: 20px;
+}
+
+.buttonlinks button:hover {
+  transition: 0.3 ease;
+  background-color: white;
+  color: black;
+}
+
+.centre-images img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+  padding: 20px;
+}
+
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none !important;
+    padding-top: 40px;
+}
+
+#title2 {
+    border: none !important;
+}
+
+img {
+  border: 3px solid white;
+}
